@@ -17,9 +17,9 @@ requires = [
     'alembic',
     'pyramid_retry',
     'pyramid_tm',
-    'SQLAlchemy',
     'transaction',
-    'zope.sqlalchemy',
+    "grpcio",
+    "grpcio-tools",
 ]
 
 tests_require = [
